@@ -26,8 +26,6 @@ currently involed it the chat. Any other input will result in a message being se
  
 Logfile location: /var/tmp
 
-Uses INET socket but only tested on localhost so please only use localhost!!!
-
 When you run the server as a daemon make sure when you want to end it that you run both of the following:
 pkill server379
 pkill -9 server379
